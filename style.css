@@ -35,13 +35,14 @@
 
 .navigation > ul {	
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	grid-template-columns: repeat(auto-fit);
 	grid-template-rows: auto;
 }
 
 .nav-item {
 	display: inline;
 	grid-row: 1 / -1;
+	padding: 1vw;
 }
 
 .footer {
